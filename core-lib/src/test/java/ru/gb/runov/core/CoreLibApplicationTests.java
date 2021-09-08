@@ -1,10 +1,10 @@
-package ru.gb.auth;
+package ru.gb.core;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AuthApplicationTests {
+class CoreLibApplicationTests {
 
     @Test
     void contextLoads() {

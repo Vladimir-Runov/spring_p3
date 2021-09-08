@@ -14,6 +14,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df870fcd-cc1a-461b-a329-3dcee1522a91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/AuthApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/AuthRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/AuthResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/SignUpRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/test/java/ru/gb/runov/auth/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/test/java/ru/gb/runov/auth/AuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_p3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_p3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/spring_p3/SpringP3Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/spring_p3/SpringP3ApplicationTests.java" beforeDir="false" />
     </list>
@@ -29,6 +46,11 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="spring_p3/invalid/Spring" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -56,11 +78,11 @@
   </component>
   <component name="RunManager" selected="Application.AuthApplication">
     <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.runov.auth.AuthApplication" />
+      <option name="MAIN_CLASS_NAME" value="ru.gb.auth.AuthApplication" />
       <module name="ms-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.runov.auth.*" />
+          <option name="PATTERN" value="ru.gb.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +110,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AuthApplication" />
+      <item itemvalue="Application.SpringP3Application" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AuthApplication" />
@@ -133,7 +159,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631119709731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build">
+      <created>1631119831291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119831291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build">
+      <created>1631119952862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119952862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +189,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build ok!" />
@@ -156,30 +197,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="build" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="129" key="#Project_Structure" timestamp="1631123071104">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="440" y="129" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1631123071104" />
+    <state x="414" y="209" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631123218681">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="414" y="209" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631123218681" />
     <state x="735" y="421" key="Github.CreatePullRequestDialog" timestamp="1631119140307">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="735" y="421" key="Github.CreatePullRequestDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631119140307" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631078436734">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631131998110">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436734" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631078436733">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998110" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631131998109">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436733" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631078436732">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998109" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631131998108">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436732" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631078436733">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998108" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631131998109">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436733" />
-    <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1629838209190">
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998109" />
+    <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1631123348089">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="440" y="129" width="1214" height="852" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1629838209190" />
+    <state x="440" y="129" width="1214" height="852" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1631123348089" />
     <state x="758" y="456" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631118924922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -188,6 +237,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_p3$SpringP3Application.ic" NAME="SpringP3Application Coverage Results" MODIFIED="1629923181910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.gb.spring_p3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/spring_p3$AuthApplication.ic" NAME="AuthApplication Coverage Results" MODIFIED="1631128553084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.gb.auth.*</FILTER>
     </SUITE>
   </component>
 </project>
