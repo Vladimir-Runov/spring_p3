@@ -19,6 +19,17 @@
        <!-- <java.version>1.8</java.version>  -->
     </properties>
 
+	<modules>
+		<!--   libs -->
+		<module>core-lib</module>
+		<module>routing-lib</module>
+		<!--  Microservices  -->
+		<module>ms-auth</module>
+		<module>ms-products</module>
+		<module>ms-order</module>
+		<module>ms-payments</module>
+	</modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
