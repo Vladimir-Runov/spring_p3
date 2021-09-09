@@ -16,4 +16,8 @@ public class ProductDto {
         this.price = p.getPrice();
     }
 
+
+    public String getName() {
+        return name;
+    }
 }

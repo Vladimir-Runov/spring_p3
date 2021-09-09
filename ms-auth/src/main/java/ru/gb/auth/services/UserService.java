@@ -16,13 +16,13 @@ import java.util.Collections;
 @RequiredArgsConstructor
 public class UserService {
 
-   // @Autowired
+    @Autowired
     private UserRepository userRepository;
 
-    //@Autowired
+    @Autowired
     private RoleRepository roleRepository;
 
-    //@Autowired
+    @Autowired
     private PasswordEncoder passwordEncoder;
 
     public User saveUser(User user) {

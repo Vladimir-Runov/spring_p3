@@ -17,7 +17,9 @@ import ru.gb.auth.dtos.AuthResponseDto;
 import ru.gb.auth.dtos.SignUpRequestDto;
 import ru.gb.auth.entities.User;
 import ru.gb.auth.services.UserService;
+import ru.gb.core.interfaces.ITokenService;
 import ru.gb.core.models.UserInfo;
+import ru.gb.core.repositories.RedisRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,15 +27,14 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/auth")
 public class AuthController {
-
     @Autowired
     private UserService userService;
 
     @Autowired
-    private ru.gb.core.interfaces.ITokenService iTokenService;
+    private ITokenService iTokenService;
 
     @Autowired
-    private ru.gb.core.repositories.RedisRepository redisRepository;
+    private RedisRepository redisRepository;
 
     @PostMapping("/signup")
     @ResponseStatus(HttpStatus.CREATED)
@@ -66,4 +67,5 @@ public class AuthController {
         String token = iTokenService.generateToken(userInfo);
         return new AuthResponseDto(token);
     }
+
 }
