@@ -39,7 +39,7 @@ public class ServicesTest {
 
         Mockito
             .doReturn(Optional.of(dp)).when(productRepository).findById(24L);
-        ProductDto p = productService.findProductDtoById(24L).get();
+        Product p = productService.findProductDtoById(24L).get();
         Mockito.verify(productRepository, Mockito.times(1)).findById(ArgumentMatchers.eq(24L));
         Assertions.assertEquals("Bread", p.getName());
 
