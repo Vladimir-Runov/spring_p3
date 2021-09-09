@@ -14,12 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df870fcd-cc1a-461b-a329-3dcee1522a91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ms-products/src/test/java/ru/gb/products/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-products/src/test/java/ru/gb/products/ServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-payments/src/main/java/ru/gb/runov/payments/MsPaymentsApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -191,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631166507031</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)">
+      <created>1631186894046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631186894062</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +231,8 @@
     <MESSAGE value="build" />
     <MESSAGE value="build -2" />
     <MESSAGE value="build -3" />
-    <option name="LAST_COMMIT_MESSAGE" value="build -3" />
+    <MESSAGE value="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="129" key="#Project_Structure" timestamp="1631123071104">
@@ -229,22 +247,22 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="735" y="421" key="Github.CreatePullRequestDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631119140307" />
-    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1631166229794">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1631187627872">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229794" />
-    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1631166229792">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631187627872" />
+    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1631187627871">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229792" />
-    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1631166229792">
+    <state width="1877" height="258" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631187627871" />
+    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1631187627870">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229792" />
-    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1631166229793">
+    <state width="1877" height="258" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631187627870" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1631187627871">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="443" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229793" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631187627871" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1631158697027">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -261,6 +279,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631158697026" />
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog" timestamp="1631188764380">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631188764379" />
     <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1631123348089">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -273,6 +295,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="758" y="456" key="git4idea.remote.GitConfigureRemotesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631118924922" />
+    <state x="616" y="258" key="run.anything.popup" timestamp="1631189048449">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1631189048449" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_p3$SpringP3Application.ic" NAME="SpringP3Application Coverage Results" MODIFIED="1629923181910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
