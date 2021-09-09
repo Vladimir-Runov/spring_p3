@@ -14,19 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df870fcd-cc1a-461b-a329-3dcee1522a91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-lib/src/main/java/ru/gb/core/services/JWTTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-lib/src/main/java/ru/gb/core/services/JWTTokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-payments/src/main/java/ru/gb/runov/payments/MsPaymentsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/controllers/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/entities/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/entities/ProductDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/repository/specifications/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/repository/specifications/ProductSpecifications.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/services/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-products/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631132698310</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="build -3">
+      <created>1631166507031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631166507031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +213,8 @@
     <MESSAGE value="build ok!" />
     <MESSAGE value="build" />
     <MESSAGE value="build -2" />
-    <option name="LAST_COMMIT_MESSAGE" value="build -2" />
+    <MESSAGE value="build -3" />
+    <option name="LAST_COMMIT_MESSAGE" value="build -3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="129" key="#Project_Structure" timestamp="1631123071104">
