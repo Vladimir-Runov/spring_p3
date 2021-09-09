@@ -1,14 +1,14 @@
 create table users
 (
-    id              bigserial primary key,
-    username        varchar(255) not null unique,
-    password        varchar(255) not null,
-    email           varchar(255) not null
+    id         bigserial primary key,
+    username      varchar(255) not null unique,
+    password      varchar(255) not null,
+    email      varchar(255) not null
 
 );
 create table roles (
-  id           bigserial primary key,
-  name          varchar(255) not null unique,
+  id           bigserial primary key (id),
+  name      varchar(255) not null unique,
   created_at timestamp default current_timestamp
 
 );
@@ -24,9 +24,6 @@ insert into users (username,password,email) values
 ('user',    '$2a$04$Fx/SX9.BAvtPlMyIIqqFx.hLY2Xp8nnhpzvEEVINvVpwIPbA3v/.i', 'userAdmin@gmail.com');
 
 insert into users_roles (user_id,role_id) values (1,1),(2,2);
-
-
-
 
 create table products
 (

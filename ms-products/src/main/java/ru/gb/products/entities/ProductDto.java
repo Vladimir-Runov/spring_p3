@@ -1,4 +1,4 @@
-package ru.gb.runov.products.entities;
+package ru.gb.products.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,5 @@
-package ru.gb.runov.products.entities;
+package ru.gb.products.entities;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 

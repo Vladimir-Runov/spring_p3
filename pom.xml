@@ -28,7 +28,7 @@
 	<modules>
 		<!--   libs -->
 		<module>core-lib</module>
-	        <module>routing-lib</module>
+        <module>routing-lib</module>
 
 		<!--  Microservices  -->
 		<module>ms-auth</module>

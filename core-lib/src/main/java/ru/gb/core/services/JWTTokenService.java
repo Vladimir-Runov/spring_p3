@@ -17,7 +17,7 @@ import java.time.temporal.ChronoUnit;
 
 import java.util.Date;
 import java.util.List;
-@ExtendWith(JWTTokenService.class)
+
 @Service
 public class JWTTokenService implements ITokenService {
 

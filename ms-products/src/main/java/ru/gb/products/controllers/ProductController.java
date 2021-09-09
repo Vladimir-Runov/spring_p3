@@ -1,4 +1,4 @@
-package ru.gb.runov.products.controllers;
+package ru.gb.products.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -16,9 +16,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import ru.gb.runov.products.entities.Product;
-import ru.gb.runov.products.repository.specifications.ProductSpecifications;
-import ru.gb.runov.products.services.ProductService;
+import ru.gb.products.entities.Product;
+import ru.gb.products.entities.ProductDto;
+import ru.gb.products.repository.specifications.ProductSpecifications;
+import ru.gb.products.services.ProductService;
 
 
 @RestController
@@ -41,7 +42,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ProductDto findProductById(@PathVariable Long id) {
-        return productService.findProductDtoById(id).orElseThrow(() -> new ru.gb.runov.core.exceptions.ResourceNotFoundException("Product with id: " + id + " doens't exist"));
+        return productService.findProductDtoById(id).orElseThrow(() -> new ru.gb.core.exceptions.ResourceNotFoundException("Product with id: " + id + " doens't exist"));
     }
 
     @PostMapping

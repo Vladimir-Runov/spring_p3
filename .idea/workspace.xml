@@ -15,24 +15,18 @@
   <component name="ChangeListManager">
     <list default="true" id="df870fcd-cc1a-461b-a329-3dcee1522a91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/AuthApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/controllers/AuthController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/AuthRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/AuthResponseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/dtos/SignUpRequestDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/entities/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/entities/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/repositories/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/repositories/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/runov/auth/services/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-auth/src/test/java/ru/gb/runov/auth/AuthApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/test/java/ru/gb/runov/auth/AuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-lib/src/main/java/ru/gb/core/services/JWTTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-lib/src/main/java/ru/gb/core/services/JWTTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-payments/src/main/java/ru/gb/runov/payments/MsPaymentsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/entities/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/entities/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/repository/specifications/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/repository/specifications/ProductSpecifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/runov/products/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_p3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_p3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/spring_p3/SpringP3Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gb/spring_p3/SpringP3ApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +70,26 @@
     <property name="project.structure.side.proportion" value="0.508046" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.AuthApplication">
+  <component name="RunManager" selected="Application.MsProductsApplication">
     <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.auth.AuthApplication" />
       <module name="ms-auth" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.gb.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.products.MsProductsApplication" />
+      <module name="ms-products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.products.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,9 +120,11 @@
     <list>
       <item itemvalue="Application.AuthApplication" />
       <item itemvalue="Application.SpringP3Application" />
+      <item itemvalue="Application.MsProductsApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MsProductsApplication" />
         <item itemvalue="Application.AuthApplication" />
         <item itemvalue="Application.SpringP3Application" />
       </list>
@@ -173,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631119952862</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="build">
+      <created>1631132184503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631132184503</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build -2">
+      <created>1631132698310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631132698310</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,41 +217,62 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="build ok!" />
     <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="build -2" />
+    <option name="LAST_COMMIT_MESSAGE" value="build -2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="129" key="#Project_Structure" timestamp="1631123071104">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="440" y="129" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1631123071104" />
-    <state x="414" y="209" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631123218681">
+    <state x="414" y="209" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631158377744">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="414" y="209" width="1092" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631123218681" />
+    <state x="414" y="209" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631158377744" />
     <state x="735" y="421" key="Github.CreatePullRequestDialog" timestamp="1631119140307">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="735" y="421" key="Github.CreatePullRequestDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631119140307" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631131998110">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom" timestamp="1631166229794">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998110" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631131998109">
+    <state width="1877" height="443" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229794" />
+    <state width="1877" height="443" key="GridCell.Tab.0.center" timestamp="1631166229792">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998109" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631131998108">
+    <state width="1877" height="443" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229792" />
+    <state width="1877" height="443" key="GridCell.Tab.0.left" timestamp="1631166229792">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998108" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631131998109">
+    <state width="1877" height="443" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229792" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right" timestamp="1631166229793">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631131998109" />
+    <state width="1877" height="443" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631166229793" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1631158697027">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631158697027" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1631158697026">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631158697026" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1631158697025">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631158697025" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1631158697026">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631158697026" />
     <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1631123348089">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="440" y="129" width="1214" height="852" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1631123348089" />
+    <state x="776" y="332" key="chooseDestDirectoryDialog" timestamp="1631132735392">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="776" y="332" key="chooseDestDirectoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631132735392" />
     <state x="758" y="456" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631118924922">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
