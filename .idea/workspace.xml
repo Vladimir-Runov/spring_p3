@@ -3,17 +3,48 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df870fcd-cc1a-461b-a329-3dcee1522a91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/auth/controllers/WebSecurityConfigAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/auth/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/auth/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/auth/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-auth/src/main/java/ru/gb/auth/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/products/entities/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/main/java/ru/gb/products/entities/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-products/src/test/java/ru/gb/products/ServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-products/src/test/java/ru/gb/products/ServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="less_9" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="spring_p3/invalid/Spring" />
+    </ignored-facets>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -39,7 +70,33 @@
     <property name="project.structure.side.proportion" value="0.508046" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.SpringP3Application">
+  <component name="RunManager" selected="Application.AuthApplication">
+    <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.auth.AuthApplication" />
+      <module name="ms-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsProductsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.products.MsProductsApplication" />
+      <module name="ms-products" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringP3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.spring_p3.SpringP3Application" />
       <module name="spring_p3" />
@@ -60,8 +117,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AuthApplication" />
+      <item itemvalue="Application.SpringP3Application" />
+      <item itemvalue="Application.MsProductsApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuthApplication" />
+        <item itemvalue="Application.MsProductsApplication" />
         <item itemvalue="Application.SpringP3Application" />
       </list>
     </recent_temporary>
@@ -76,36 +140,210 @@
       <updated>1629836002533</updated>
       <workItem from="1629836017459" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="build ok!">
+      <created>1631119053327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119053327</updated>
+    </task>
+    <task id="LOCAL-00002" summary="build ok!">
+      <created>1631119116933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119116933</updated>
+    </task>
+    <task id="LOCAL-00003" summary="build ok!">
+      <created>1631119456985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119456985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build">
+      <created>1631119709731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119709731</updated>
+    </task>
+    <task id="LOCAL-00005" summary="build">
+      <created>1631119831291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119831291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="build">
+      <created>1631119952862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631119952862</updated>
+    </task>
+    <task id="LOCAL-00007" summary="build">
+      <created>1631132184503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631132184503</updated>
+    </task>
+    <task id="LOCAL-00008" summary="build -2">
+      <created>1631132698310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631132698310</updated>
+    </task>
+    <task id="LOCAL-00009" summary="build -3">
+      <created>1631166507031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631166507031</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)">
+      <created>1631186894046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631186894062</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)">
+      <created>1631189434017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631189434017</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)">
+      <created>1631189478505</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631189478505</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)">
+      <created>1631189920698</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631189920698</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixes">
+      <created>1631216519832</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631216519832</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fixes">
+      <created>1631216705004</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631216705004</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="build ok!" />
+    <MESSAGE value="build" />
+    <MESSAGE value="build -2" />
+    <MESSAGE value="build -3" />
+    <MESSAGE value="Выбрать любой из готовых микросервисов и сделать тест-классы для:&#10;1. сервиса (unit-test, т.е. repository с @MockBean)&#10;2. репозитория (@DataJpaTest)&#10;3. контроллера (через класс MockMvc)" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1631078436734">
+    <state x="440" y="129" key="#Project_Structure" timestamp="1631123071104">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436734" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1631078436733">
+    <state x="440" y="129" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1631123071104" />
+    <state x="414" y="209" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631158377744">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436733" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1631078436732">
+    <state x="414" y="209" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631158377744" />
+    <state x="735" y="421" key="Github.CreatePullRequestDialog" timestamp="1631119140307">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436732" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1631078436733">
+    <state x="735" y="421" key="Github.CreatePullRequestDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631119140307" />
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1631221993617">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631078436733" />
-    <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1629838209190">
+    <state width="1877" height="352" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993617" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1631221993616">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="440" y="129" width="1214" height="852" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1629838209190" />
+    <state width="1877" height="352" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993616" />
+    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1631221993615">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993615" />
+    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1631221993616">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993616" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1631221993619">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993619" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1631221993618">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993618" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1631221993617">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993617" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1631221993618">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1631221993618" />
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog" timestamp="1631188764380">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="490" y="209" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631188764379" />
+    <state x="440" y="129" width="1214" height="852" key="SettingsEditor" timestamp="1631123348089">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="440" y="129" width="1214" height="852" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1631123348089" />
+    <state x="776" y="332" key="chooseDestDirectoryDialog" timestamp="1631132735392">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="776" y="332" key="chooseDestDirectoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631132735392" />
+    <state x="758" y="456" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631118924922">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="758" y="456" key="git4idea.remote.GitConfigureRemotesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1631118924922" />
+    <state x="616" y="258" key="run.anything.popup" timestamp="1631189048449">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1631189048449" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring_p3$SpringP3Application.ic" NAME="SpringP3Application Coverage Results" MODIFIED="1629923181910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ru.gb.spring_p3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/spring_p3$AuthApplication.ic" NAME="AuthApplication Coverage Results" MODIFIED="1631128553084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.gb.auth.*</FILTER>
     </SUITE>
   </component>
 </project>
